@@ -1,0 +1,11 @@
+body {
+    height: 200vh;
+    font-size: 1rem;
+    padding-top: 70px;
+}
+.navbar {
+    transition: all 0.2s ease;
+}
+.nav-lighter {
+    background: rgba(26, 26, 26, 0.9) !important;
+}
