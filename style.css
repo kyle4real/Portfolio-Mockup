@@ -3,6 +3,9 @@ body {
     font-size: 1rem;
     padding-top: 90px;
 }
+:root {
+    --swiper-theme-color: white;
+}
 h1 {
     font-size: 3rem;
 }
@@ -14,4 +17,16 @@ h4 {
 }
 .nav-lighter {
     background: rgba(26, 26, 26, 0.9) !important;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
 }

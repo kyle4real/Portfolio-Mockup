@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="bootstrap.min.css" />
-
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
         <link rel="stylesheet" href="style.css" />
         <title>Portfolio Mockup</title>
     </head>
@@ -75,7 +75,7 @@
             <div class="container-sm d-flex flex-md-row flex-column p-5 p-md-0">
                 <div class="container align-self-center flex-fill p-0">
                     <h1>Welcome</h1>
-                    <h4 class="text-wrap">My name - Kyle Friel<br>My Profession - Frontend Engineer</h4>
+                    <h4 class="text-wrap text-capitalize">Kyle Friel<br>a Frontend Engineer</h4>
                     <button class="btn btn-success btn-banner mt-4 rounded">Contact Me</button>
                 </div>
                 <div class="container flex-fill p-0 pt-5 pt-md-0">
@@ -89,7 +89,7 @@
                 <h1 class="text-light text-lowercase">my <span class="text-success">skills</span>:</h1>
             </div>
             <div class="container-sm d-flex justify-content-between flex-md-row flex-column p-5 pe-md-0 ps-md-0 text-center">
-                <div class="card mb-5 me-0 mb-md-0 me-md-4 rounded">
+                <div class="card mb-5 me-0 mb-md-0 me-md-4 rounded border-success border-3">
                     <div class="card-header">HTML</div>
                     <div class="card-body">
                         <div class="card-title">Special Title</div>
@@ -102,7 +102,7 @@
                         <div class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     </div>
                 </div>
-                <div class="card mb-5 me-0 mb-md-0 me-md-4 round">
+                <div class="card mb-5 me-0 mb-md-0 me-md-4 rounded border-success border-3">
                     <div class="card-header">CSS</div>
                     <div class="card-body">
                         <div class="card-title">Special Title</div>
@@ -115,7 +115,7 @@
                         <div class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
                     </div>
                 </div>
-                <div class="card rounded">
+                <div class="card rounded border-success border-3">
                     <div class="card-header">JavaScript</div>
                     <div class="card-body">
                         <div class="card-title">Special Title</div>
@@ -137,12 +137,40 @@
                 </div>
                 <div class="container align-self-center text-md-end flex-fill p-0">
                     <h1>Resume</h1>
-                    <h4 class="text-wrap">Like what you see? Thanks.</h4>
+                    <h4 class="text-wrap">Like what you see?</h4>
                     <button class="btn btn-success btn-banner mt-4 rounded">Download Resume</button>
                 </div>
             </div>
         </section>
-        <section class="container-fluid"></section>
+        <section class="container-fluid mt-5 bg-primary pe-0 ps-0 pt-5 pb-5">
+            <div class="container-sm text-center pt-3">
+                <h1 class="text-light text-lowercase">my <span class="text-success">projects</span>:</h1>
+            </div>
+            <div class="container-sm p-5 pe-md-0 ps-md-0 ">
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <div class="card-header">E-commerce Website</div>
+                            <img src="images/building.jpg" class="img-fluid">
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/building.jpg" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/building.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script
             src="https://code.jquery.com/jquery-3.6.0.min.js"
             integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
