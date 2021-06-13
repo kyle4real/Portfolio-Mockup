@@ -38,3 +38,43 @@ textarea {
 .hover {
     background: rgba(26, 26, 26, 0.6);
 }
+
+.top-of-resume,
+.bottom-of-resume {
+    padding: 40px;
+}
+
+#resume {
+    z-index: -5;
+}
+
+.custom-circle {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: rgba(75, 191, 115, 0.2);
+    top: -30%;
+    right: -10%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.custom-circle-2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: rgba(75, 191, 115, 0.1);
+    border-radius: 50%;
+    top: 50%;
+    right: 25%;
+}
+
+.custom-circle-3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: rgba(75, 191, 115, 0.1);
+    border-radius: 50%;
+    top: 90%;
+    right: 53%;
+}
