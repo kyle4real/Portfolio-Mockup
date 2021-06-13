@@ -9,6 +9,23 @@ $(document).ready(() => {
     console.log("yes");
 });
 
+const projectsHover = () => {
+    const projectsNum = 3;
+    for (let i = 0; i < projectsNum; i++) {
+        const current = $(`#proj-${i + 1}`)[0];
+        const currentBody = $(current).find("div")[0];
+        $(current).hover(
+            () => {
+                $(currentBody).removeClass("d-none");
+            },
+            () => {
+                $(currentBody).addClass("d-none");
+            }
+        );
+    }
+};
+projectsHover();
+
 const swiper = new Swiper(".swiper-container", {
     effect: "coverflow",
     grabCursor: true,
