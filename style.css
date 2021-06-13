@@ -39,8 +39,8 @@ textarea {
     background: rgba(26, 26, 26, 0.6);
 }
 
-.top-of-resume,
-.bottom-of-resume {
+.top-padding,
+.bottom-padding {
     padding: 40px;
 }
 
